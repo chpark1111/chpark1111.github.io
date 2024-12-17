@@ -4,10 +4,25 @@ import './components.css';
 function ProfileSection() {
   return (
     <section className="profile-section">
-      <h2>I am an undergraduate and researcher at <span role="img" aria-label="KAIST">?KAIST School of Computing</span>, advised by Prof. Alice Oh.</h2>
+      <h2>Introduction</h2>
       <div className="intro">
-        <p>My research interests broadly lie at the intersection of human-computer interaction (HCI), social computing, and natural language processing (NLP). Ultimately, I aim to harness the potential of social and language technologies to empower individuals and communities to expand their worldviews, fostering personal growth and societal harmony.</p>
-        <p>It has been my honor to be advised by Prof. Munmun De Choudhury while I was at <span role="img" aria-label="Georgia Tech">?Georgia Tech</span> as an exchange student. At <span role="img" aria-label="Naver">?NAVER AI Lab</span>, I was fortunate to be advised by Dr. Young-Ho Kim. I was also incredibly lucky to be advised by Prof. Hwajung Hong, Prof. Janghee Cho, and Prof. Juho Kim, who all inspired my love and devotion to research.</p>
+        <p> I am Chanhyeok Park, a highly self-motivated undergraduate student at KAIST, School of Computing. I am interested in combining <b>deep learning</b> approaches with <b>3D computer vision, reinforcement learning, finance, and law.</b> For now, my focus is to seek how deep learning techniques can be employed in <b>the legal domain</b>, especially utilizing Large Language Models. </p>
+        <p> Previously, as a research intern at{' '}
+        <a
+          href="https://visualai.kaist.ac.kr/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          KAIST Visual AI Group
+        </a>, I worked on decomposing 3D shapes with tight bounding boxes without any human supervision with{' '} 
+        <a
+          href="https://mhsung.github.io/"
+          target="_blank"
+          rel="noreferrer"
+        >
+        Prof. Minhyuk Sung
+        </a>
+        . I believe that the power of deep learning technologies, integrated appropriately into various fields, will innovate our future. </p>
       </div>
     </section>
   );

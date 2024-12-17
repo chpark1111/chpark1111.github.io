@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-left">
-        <h1>Chanhyeok Park</h1>
+        <h1>? Chanhyeok Park</h1>
       </div>
       <div className="header-nav">
         <a href="#projects">Projects</a>

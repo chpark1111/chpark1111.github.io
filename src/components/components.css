@@ -1,63 +1,57 @@
 /* Header.js */
 .header {
-    width: 89.5%;
+    width: 100%;
     background: #f8f8f8;
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 100px;
 }
-  
+
+.header-left {
+    margin-left: 280px;
+}
+.header-nav {
+    margin-right: 320px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav a + a {
+    margin-left: 70px; /* Only applies if there's another 'a' before it */
+}
+
 .header-left h1 {
     font-size: 2rem;
-    margin: 0;
+    margin: 10px;
     display: flex;
     align-items: center;
 }
   
-.header-left h1::before {
-    content: "?";
-    margin-right: 10px;
-    font-size: 2rem;
-}
-  
 .header-nav a {
-    margin-left: 60px;
     text-decoration: none;
     color: #333;
-    font-weight: 500;
+    font-weight: 1000;
 }
   
 .header-nav a:hover {
     text-decoration: underline;
 }
-  
+
+
+
+
 /* Main Content */
 .main-content {
     flex: 1;
     padding: 20px 40px;
 }
 
-/* Header.js */
 
-.news-section {
-    margin-top: 40px;
-}
-  
-.news-section h3 {
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-}
-  
-.news-item {
-    font-size: 0.9rem;
-    line-height: 1.4;
-    margin-bottom: 10px;
-}
-  
 
-  
+
+/* ProfileSection.js */
+
 .profile-section h2 {
     font-size: 2rem;
     margin-top: 0;
@@ -67,7 +61,12 @@
     margin-top: 20px;
     line-height: 1.6;
 }
-  
+
+
+
+
+/* ProjectSection.js */
+
 .projects-header {
     margin-top: 40px;
 }
@@ -99,8 +98,12 @@
 .project-filters button:hover {
     background: #ddd;
 }
-  
-/* Project Cards */
+
+
+
+
+/* ProjectCard.js */
+
 .project-card {
     margin-top: 30px;
     border-bottom: 1px solid #ddd;
@@ -135,20 +138,21 @@
 .project-card a:hover {
     text-decoration: underline;
 }
-  
-  
-  
-  
+
+
+
+
+
+/* Sidebar.js */
   
 html, body, #root, .App {
     margin: 0;
     padding: 0;
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: "Source Sans 3", Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
     color: #333;
     background: #fff;
 }
-  
-  
+
 .sidebar {
     width: 300px;
     text-align: center;
@@ -190,7 +194,7 @@ html, body, #root, .App {
     display: flex;
     justify-content: center;
     gap: 20px;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-top: 20px;
     color: #0b0d0f; /* Example light-blue color for icons */
 }
@@ -206,18 +210,28 @@ html, body, #root, .App {
 .sidebar-icons a:hover {
     color: #B0D0EF;
 }
+
+.cv-link {
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+
+
+/* NewsItem.js */
   
 .news-section {
     text-align: left;
-    margin-top: 10px;
+    margin-top: 20px;
 }
   
 .news-section h3 {
     margin: 0 0 10px;
     font-size: 1.2rem;
+    margin-bottom: 10px;
     color: #72a7bd; /* title color */
 }
-  
+
 .news-item {
     margin-bottom: 8px;
     font-size: 0.95rem;
@@ -226,9 +240,4 @@ html, body, #root, .App {
   
 .news-item strong {
     color: #333;
-}
-  
-.cv-link {
-    font-size: 1rem;
-    font-weight: bold;
 }
