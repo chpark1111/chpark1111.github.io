@@ -1,0 +1,15 @@
+/* Reset and basic styling */
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Layout */
+.main-layout {
+  display: flex;
+  flex-direction: row;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
