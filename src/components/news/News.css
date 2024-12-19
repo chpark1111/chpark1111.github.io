@@ -1,0 +1,23 @@
+.news-section {
+    margin-top: 20px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .news-section h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: var(--trade-dress); /* Light blue accent if following same style as publications */
+  }
+  
+  .news-item {
+    font-size: 0.95rem;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    color: #333;
+  }
+  
+  .news-item strong {
+    color: #333;
+    margin-right: 5px;
+  }
+  

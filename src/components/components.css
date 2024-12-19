@@ -1,41 +1,74 @@
+:root {
+  --trade-dress: #125cb0;
+}
+
 /* Header.js */
 .header {
-    width: 100%;
-    background: #f8f8f8;
-    border-bottom: 1px solid #ddd;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  /* Slightly translucent white background */
+  background: rgba(255, 255, 255, 0.82);
+  /* For a blurred background effect (supports modern browsers) */
+  backdrop-filter: blur(1.2px);
+  -webkit-backdrop-filter: blur(1.2px);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 10px;
+  z-index: 1000;
+  box-shadow: 0 3px 4px rgba(127, 116, 116, 0.1);
 }
 
+/* Header.js Margins */
 .header-left {
-    margin-left: 280px;
-}
-.header-nav {
-    margin-right: 320px;
-    display: flex;
-    align-items: center;
+  margin-left: 264px;
 }
 
-.header-nav a + a {
-    margin-left: 70px; /* Only applies if there's another 'a' before it */
+.header-nav {
+  margin-right: 320px;
+  display: flex;
+  align-items: center;
 }
+
+.header-nav span + span {
+  margin-left: 55px; /* Only applies if there's another 'a' before it */
+}
+
 
 .header-left h1 {
-    font-size: 2rem;
-    margin: 10px;
-    display: flex;
-    align-items: center;
+  font-size: 1.84rem;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.header-left h1:hover {
+  color: var(--trade-dress); /* Blue color on hover */
+  transform: scale(1.05);
+}
+
+.header-left h1:before {
+  content: "🐣";
+  margin-right: 10px;
+  font-size: 1.8rem;
+}
+
+.header-nav span {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  transition: transform 0.3s ease-in-out;
 }
   
-.header-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: 1000;
-}
-  
-.header-nav a:hover {
-    text-decoration: underline;
+.header-nav span:hover {
+  color: var(--trade-dress);
+  transform: scale(1.1);
 }
 
 
@@ -43,100 +76,98 @@
 
 /* Main Content */
 .main-content {
-    flex: 1;
-    padding: 20px 40px;
+  flex: 1;
+  padding: 20px 40px;
 }
 
 
 
 
 /* ProfileSection.js */
-
 .profile-section h2 {
-    font-size: 2rem;
-    margin-top: 0;
+  font-size: 2rem;
+  margin-top: 0;
 }
   
 .profile-section .intro {
-    margin-top: 20px;
-    line-height: 1.6;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: 400;
 }
 
 
 
 
 /* ProjectSection.js */
-
 .projects-header {
-    margin-top: 40px;
+  margin-top: 40px;
 }
-  
+
 .projects-header h2 {
-    margin: 0;
-    font-size: 1.8rem;
+  margin: 0;
+  font-size: 1.8rem;
 }
   
 .projects-header p {
-    margin: 10px 0 0 0;
-    font-size: 0.95rem;
-    color: #555;
+  margin: 10px 0 0 0;
+  font-size: 0.95rem;
+  color: #555;
 }
   
 .project-filters {
-    margin-top: 20px;
+  margin-top: 20px;
 }
   
 .project-filters button {
-    margin-right: 10px;
-    border: none;
-    background: #eee;
-    padding: 5px 10px;
-    cursor: pointer;
-    font-size: 0.85rem;
+  margin-right: 10px;
+  border: none;
+  background: #eee;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 0.85rem;
 }
   
 .project-filters button:hover {
-    background: #ddd;
+  background: #ddd;
 }
 
 
 
 
 /* ProjectCard.js */
-
 .project-card {
-    margin-top: 30px;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 20px;
+  margin-top: 30px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
 }
   
 .project-card h3 {
-    margin: 0;
-    font-size: 1.2rem;
+  margin: 0;
+  font-size: 1.2rem;
 }
   
 .project-card .role {
-    margin-top: 5px;
-    font-size: 0.9rem;
-    font-style: italic;
-    color: #555;
+  margin-top: 5px;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: #555;
 }
   
 .project-card .tags {
-    margin-top: 10px;
-    font-size: 0.85rem;
-    color: #777;
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: #777;
 }
   
 .project-card a {
-    margin-right: 10px;
-    font-size: 0.8rem;
-    text-decoration: none;
-    color: #00f;
+  margin-right: 10px;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: #00f;
 }
   
 .project-card a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 
@@ -144,100 +175,125 @@
 
 
 /* Sidebar.js */
-  
 html, body, #root, .App {
-    margin: 0;
-    padding: 0;
-    font-family: "Source Sans 3", Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
-    color: #333;
-    background: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans 3", Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Noto Color Emoji', 'Segoe UI Symbol', sans-serif;
+  color: #333;
+  background: #fff;
 }
 
 .sidebar {
-    width: 300px;
-    text-align: center;
-    padding: 40px 20px;
-    background: #fff;
+  width: 300px;
+  text-align: center;
+  padding: 40px 20px;
+  background: #fff;
 }
   
 .profile-img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto 20px;
-    display: block;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto 20px;
+  display: block;
 }
   
 .name {
-    font-size: 1.8rem;
-    margin: 0;
-    margin-bottom: 5px;
-    font-weight: 600;
+  font-size: 1.9rem;
+  margin: 0;
+  margin-bottom: 5px;
+  font-weight: 600;
 }
   
 .subtitle {
-    font-size: 1rem;
-    margin-bottom: 5px;
-    font-weight: 400;
-    color: #CACACA;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: 400;
+  color: #616161;
 }
   
 .affiliation {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    font-weight: 400;
-    color: #9FA3B1;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color: #0b0d0f;
 }
   
 .sidebar-icons {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    font-size: 1.6rem;
-    margin-top: 20px;
-    color: #0b0d0f; /* Example light-blue color for icons */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 1.6rem;
+  margin-top: 0px;
+  color: #0b0d0f; /* Example light-blue color for icons */
 }
   
 .sidebar-icons a {
-    text-decoration: none;
-    color: #070809;
-    display: flex;
-    align-items: center;
-    justify-content: center;
- }
+  text-decoration: none;
+  color: #070809;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-in-out;
+}
   
 .sidebar-icons a:hover {
-    color: #B0D0EF;
+  color: #035db8;
+  transform: scale(1.2);
 }
 
 .cv-link {
-    font-size: 1.9rem;
-    font-weight: bold;
+  font-size: 1.9rem;
+  font-weight: bold;
 }
 
 
 
 /* NewsItem.js */
-  
 .news-section {
-    text-align: left;
-    margin-top: 20px;
+  text-align: left;
+  margin-top: 20px;
 }
   
 .news-section h3 {
-    margin: 0 0 10px;
-    font-size: 1.2rem;
-    margin-bottom: 10px;
-    color: #72a7bd; /* title color */
+  margin: 0 0 10px;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: var(--trade-dress); /* title color */
 }
 
 .news-item {
-    margin-bottom: 8px;
-    font-size: 0.95rem;
-    line-height: 1.4;
+  margin-bottom: 8px;
+  font-size: 0.95rem;
+  line-height: 1.4;
 }
   
 .news-item strong {
-    color: #333;
+  color: #333;
+}
+
+
+/* Footer.js */
+.footer {
+  background: var(--trade-dress); /* adjust to your desired color */
+  color: #f0f0f0;       /* light text on darker background */
+  padding: 7px;
+  font-size: 1rem;
+  line-height: 1.4;
+  border-top: 1px solid #ddd;
+}
+  
+.footer a {
+  color: #f0f0f0;
+  text-decoration: underline;
+}
+  
+.footer a:hover {
+  color: #e0e0e0;
+}
+  
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
 }

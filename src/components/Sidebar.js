@@ -5,6 +5,7 @@ import { FaEnvelope, FaXTwitter, FaGraduationCap, FaGithub, FaLinkedin } from 'r
 // Note: Using the v6 imports for react-icons if needed. Adjust import as per your chosen icon set.
 // If using react-icons/fa, just use `import { FaEnvelope, FaTwitter, FaGraduationCap, FaGithub, FaLinkedin } from 'react-icons/fa';`
 import profileImg from '../assets/profile.jpeg';
+import News from "./news/News";
 
 function Sidebar() {
   return (
@@ -12,7 +13,7 @@ function Sidebar() {
       <img src={profileImg} alt="Profile" className="profile-img" />
       <h2 className="name">Chanhyeok Park</h2>
       <div className="subtitle">Undergraduate Student at KAIST</div>
-      <div className="affiliation">KAIST School of Computing</div>
+      <div className="affiliation">KAIST CS & IP</div>
       <div className="sidebar-icons">
         <a href="mailto:chpark11111023@gmail.com" target="_blank" rel="noreferrer" aria-label="Email">
           <FaEnvelope />
@@ -34,18 +35,7 @@ function Sidebar() {
         </a>
       </div>
 
-      <div className="news-section">
-        <h3>News</h3>
-        <div className="news-item">
-          <strong>2024.12</strong> One paper accepted to Copyright Quarterly!
-        </div>
-        <div className="news-item">
-          <strong>2024.12</strong> Won a Surim Foundation Talent Scholarship!
-        </div>
-        <div className="news-item">
-          <strong>2023.8</strong> Won a Kiturami Foundation College of Engineering Scholarship!
-        </div>
-      </div>
+      <News />
     </aside>
   );
 }

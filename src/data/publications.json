@@ -1,0 +1,44 @@
+[
+  {
+    "showTeaserImage": false,
+    "teaserImage": "",
+    "awardText": "My First Legal Research Paper!",
+    "title": "A Study on the Protection of AI- Generated Works - Focusing on the Degree of Human Involvement",
+    "authors": "Chanhyeok Park, WooJung Jon",
+    "venue": "Copyright Quarterly 2024 Winter (Vol.148)",
+    "tags": [
+      { "label": "KCI", "style": "blue", "href": "", "icon": "/assets/icons/kci.jpeg" },
+      { "label": "PDF", "style": "red", "href": "", "icon": "/assets/icons/pdf.png" },
+      { "label": "Copyright Quarterly", "style": "orange", "href": "", "icon": "/assets/icons/CQ.png" },
+      { "label": "BibTeX", "style": "gray", "href": "", "icon": "/assets/icons/tex.png" }
+    ]
+  },
+  {
+    "showTeaserImage": true,
+    "teaserImage": "/assets/images/publications/SMART_teaser.png",
+    "awardText": "My First Computer Science Paper!",
+    "title": "Split, Merge, and Refine: Fitting Tight Bounding Boxes via Over-Segmentation and Iterative Search",
+    "authors": "Chanhyeok Park, Minhyuk Sung",
+    "venue": "3DV 2024 (International Conference on 3D Vision)",
+    "tags": [
+      { "label": "Git", "style": "blue", "href": "https://github.com/chpark1111/SMART", "icon": "/assets/icons/github.png"  },
+      { "label": "PDF", "style": "red", "href": "/assets/pdf/SMART.pdf", "icon": "/assets/icons/pdf.png"  },
+      { "label": "IEEE", "style": "yellow", "href": "https://www.computer.org/csdl/proceedings-article/3dv/2024/624500b468/1XIqXEejcME", "icon": "/assets/icons/ieee-cs.png" },
+      { "label": "arXiv", "style": "green", "href": "https://arxiv.org/abs/2304.04336", "icon": "/assets/icons/arXiv.png" },
+      { "label": "Poster", "style": "purple", "href": "/assets/pdf/SMART_poster.pdf", "icon": "/assets/icons/poster.png" },
+      { "label": "BibTeX", "style": "gray", "href": "", "icon": "/assets/icons/tex.png"  }
+    ],
+    "bibtex": "@inproceedings{kim2024mindfuldiary,\n  author = {Kim, Taewan and Bae, Seolyeong and ...},\n  title = {MindfulDiary: ...},\n  year = {2024},\n  publisher = {Association for Computing Machinery},\n}"
+  },
+  {
+    "showTeaserImage": true,
+    "teaserImage": "/assets/images/publications/TechLeakDam_teaser.png",
+    "awardText": "",
+    "title": "A Study on the Calculation of Technology Leakage Damage",
+    "authors": "전우정, 박성필, 박태정, 김범태, 정유경, 이창곤, 김기범, 박찬혁(Chanhyeok Park), 홍유승",
+    "venue": "대검찰청 용역연구과제 2023",
+    "tags": [
+      { "label": "PDF", "style": "red", "icon": "/assets/icons/pdf.png", "href": "https://drive.google.com/file/d/1R8WC9U00wcHbJMYMqxkKO6bU1dHPFiu2/view?usp=sharing"  }
+    ]
+  }
+]

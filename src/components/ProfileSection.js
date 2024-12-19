@@ -3,7 +3,7 @@ import './components.css';
 
 function ProfileSection() {
   return (
-    <section className="profile-section">
+    <section className="profile-section" id="introduction">
       <h2>Introduction</h2>
       <div className="intro">
         <p> I am Chanhyeok Park, a highly self-motivated undergraduate student at KAIST, School of Computing. I am interested in combining <b>deep learning</b> approaches with <b>3D computer vision, reinforcement learning, finance, and law.</b> For now, my focus is to seek how deep learning techniques can be employed in <b>the legal domain</b>, especially utilizing Large Language Models. </p>
