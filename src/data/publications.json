@@ -28,7 +28,7 @@
       { "label": "Poster", "style": "purple", "href": "/assets/pdf/SMART_poster.pdf", "icon": "/assets/icons/poster.png" },
       { "label": "BibTeX", "style": "gray", "href": "", "icon": "/assets/icons/tex.png"  }
     ],
-    "bibtex": "@inproceedings{kim2024mindfuldiary,\n  author = {Kim, Taewan and Bae, Seolyeong and ...},\n  title = {MindfulDiary: ...},\n  year = {2024},\n  publisher = {Association for Computing Machinery},\n}"
+    "bibtex": "@inproceedings{Park:2024SMART,\ntitle={Split, Merge, and Refine: Fitting Tight Bounding Boxes via Over-Segmentation and Iterative Search},\nauthor={Park, Chanhyeok and Sung, Minhyuk},\nbooktitle= {3DV},\nyear={2024},}"
   },
   {
     "showTeaserImage": true,
