@@ -9,7 +9,7 @@ function MainContent() {
     <div className="main-content">
       <ProfileSection />
       <PublicationSection />
-      <ProjectsSection />
+      {/* <ProjectsSection /> */}
     </div>
   );
 }
