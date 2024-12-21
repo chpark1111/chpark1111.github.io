@@ -102,10 +102,12 @@
   gap: 8px;
   color: #fff;
   text-decoration: none;
+  transition: transform 0.3s ease-in-out;
 }
 
 .tag a:hover, .tag-link:hover {
   text-decoration: underline;
+  transform: scale(1.1);
 }
 
 .tag-blue {
@@ -135,4 +137,9 @@
 
 .tag-gray {
   background: #a2a9b0;
+}
+
+.highlighted-name {
+  font-weight: bold;
+  text-decoration: underline;
 }

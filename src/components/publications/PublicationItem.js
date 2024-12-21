@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import './PublicationItem.css';
 import BibTexModal from './BibTex/BibTexModal';
+import { highlightMyName } from './highlightMyName';
 
 /* eslint-disable jsx-a11y/anchor-is-valid  */
 
@@ -18,6 +19,7 @@ function PublicationItem({
   const [bibPos, setBibPos] = useState({ top: 0, left: 0 });
   
   const tagsContainerRef = useRef(null);
+  const author1HTML = highlightMyName(authors, 'Chanhyeok Park');
 
   const handleTagClick = (e, tag) => {
     if (tag.label === "BibTeX" && !tag.href) {
@@ -49,7 +51,10 @@ function PublicationItem({
           </div>
         )}
         <h3 className="publication-title">{title}</h3>
-        <div className="publication-authors">{authors}</div>
+        <div
+          className="publication-authors"
+          dangerouslySetInnerHTML={{ __html: author1HTML }}
+        />
         <div className="publication-venue">{venue}</div>
         <div className="tags-container" ref={tagsContainerRef}>
           {tags.map((tag, idx) => (

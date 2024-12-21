@@ -1,9 +1,7 @@
 import React from 'react';
 import './components.css';
 import resume from '../assets/resume.pdf';
-import { FaEnvelope, FaXTwitter, FaGraduationCap, FaGithub, FaLinkedin } from 'react-icons/fa6'; 
-// Note: Using the v6 imports for react-icons if needed. Adjust import as per your chosen icon set.
-// If using react-icons/fa, just use `import { FaEnvelope, FaTwitter, FaGraduationCap, FaGithub, FaLinkedin } from 'react-icons/fa';`
+import { FaEnvelope, FaXTwitter, FaGithub, FaLinkedin, FaGoogleScholar } from 'react-icons/fa6';
 import profileImg from '../assets/profile.jpeg';
 import News from "./news/News";
 
@@ -22,7 +20,7 @@ function Sidebar() {
           <FaXTwitter />
         </a>
         <a href="https://scholar.google.com/citations?user=XrShcqcAAAAJ&hl=en" target="_blank" rel="noreferrer" aria-label="Google Scholar">
-          <FaGraduationCap />
+          <FaGoogleScholar />
         </a>
         <a href="https://github.com/chpark1111" target="_blank" rel="noreferrer" aria-label="GitHub">
           <FaGithub />

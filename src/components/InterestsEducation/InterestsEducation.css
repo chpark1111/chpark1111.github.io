@@ -1,0 +1,98 @@
+.interests-education-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+
+/* Left column: Interests */
+.interests-col {
+  flex: 1; 
+  min-width: 250px;
+  max-width: 500px;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333; /* your main text color */
+  /* If you want an accent color similar to your headings, adjust accordingly */
+}
+
+.interests-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.interests-list li {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 5px;
+  color: #555; 
+}
+
+.interest-icon {
+  margin-right: 10px;
+  color: #444; /* can match your site¡¯s icon color */
+}
+
+/* Right column: Education */
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.education-section {
+  margin-top: 0px;
+  margin-left: -100px;
+}
+
+.education-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.education-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.edu-icon {
+  font-size: 1.4rem;
+  margin-right: 10px;
+  color: #333;
+  margin-top: 4px;
+}
+
+.edu-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.edu-degree {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.edu-details {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.4;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .interests-education-section {
+    flex-direction: column;
+  }
+}
+  
