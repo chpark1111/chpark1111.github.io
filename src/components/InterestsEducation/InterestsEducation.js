@@ -11,7 +11,7 @@ function InterestsEducation() {
         <ul className="interests-list">
           <li>
             <FaBook className="interest-icon" />
-            <strong> Deep Learning / LLM</strong>
+            <strong> Deep Learning / LLMs</strong>
           </li>
           <li>
             <FaBook className="interest-icon" />
