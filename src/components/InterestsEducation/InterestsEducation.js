@@ -1,5 +1,4 @@
 import React from 'react';
-// For icons (or switch to any other icon library you prefer)
 import { FaBook, FaGraduationCap } from 'react-icons/fa';
 import './InterestsEducation.css';
 
@@ -35,7 +34,7 @@ function InterestsEducation() {
             </strong>
             <p className="edu-details">
               Korea Advanced Institute of Science & Technology (KAIST), South Korea <br />
-              Mar. 2020 - Present <br />
+              <span className="edu-date">Mar. 2020 - Present</span> <br />
               GPA: 4.05/4.3
             </p>
           </div>

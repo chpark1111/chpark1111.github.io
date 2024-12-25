@@ -44,7 +44,7 @@
 
 .award-text {
   font-weight: 600;
-  color: var(--trade-dress); /* Light blue accent for award text */
+  color: var(--trade-dress);
   margin-bottom: 5px;
 }
 

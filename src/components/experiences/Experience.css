@@ -1,0 +1,97 @@
+.experience-item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+/* Wrap for the small logo on the left */
+.experience-logo-wrap {
+  width: 180px;
+  height: 60px;
+  flex-shrink: 0;
+  margin-right: 15px;
+  overflow: hidden;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+
+
+/* Content on the right side */
+.experience-content {
+  flex: 1;
+}
+
+.experience-title {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Role & Date in small text */
+.experience-meta {
+  margin-top: 0px;
+  color: #777;
+  font-size: 1rem;
+}
+
+.experience-organization {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.experience-organization a {
+  color: var(--trade-dress);
+}
+
+.experience-organization a:hover {
+  font-weight: bold;
+}
+
+/* Optional: style role, date slightly differently */
+.experience-role {
+  font-weight: 500;
+}
+
+.experience-date {
+  font-style: italic;
+}
+
+/* Description is optional */
+.experience-description {
+  margin-top: 8px;
+  font-size: 0.9rem;
+  color: #555;
+  line-height: 1.4;
+}
+
+
+
+
+.experiences-section {
+  margin-top: 40px;
+}
+
+.experiences-section h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.experiences-list {
+  display: flex;
+  flex-direction: column;
+}

@@ -8,9 +8,8 @@
   top: 0;
   width: 100%;
 
-  /* Slightly translucent white background */
   background: rgba(255, 255, 255, 0.82);
-  /* For a blurred background effect (supports modern browsers) */
+
   backdrop-filter: blur(1.2px);
   -webkit-backdrop-filter: blur(1.2px);
 
@@ -25,20 +24,20 @@
 
 /* Header.js Margins */
 .header-left {
-  margin-left: 264px;
+  margin-left: 158px;
 }
 
 .header-nav {
-  margin-right: 320px;
+  margin-right: 220px;
   display: flex;
   align-items: center;
 }
 
 .header-nav span + span {
-  margin-left: 55px; /* Only applies if there's another 'a' before it */
+  margin-left: 55px;
 }
 
-
+/* Header.js Text */
 .header-left h1 {
   font-size: 1.84rem;
   margin: 5px;
@@ -85,7 +84,7 @@
 
 /* ProfileSection.js */
 .profile-section h2 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-top: 0;
 }
   
@@ -93,6 +92,7 @@
   font-size: 1.1rem;
   line-height: 1.6;
   font-weight: 400;
+  margin-top: -10px;
 }
 
 .profile-section a {
@@ -102,82 +102,6 @@
 .profile-section a:hover {
   font-weight: bold;
 }
-
-
-/* ProjectSection.js */
-.projects-header {
-  margin-top: 40px;
-}
-
-.projects-header h2 {
-  margin: 0;
-  font-size: 1.8rem;
-}
-  
-.projects-header p {
-  margin: 10px 0 0 0;
-  font-size: 0.95rem;
-  color: #555;
-}
-  
-.project-filters {
-  margin-top: 20px;
-}
-  
-.project-filters button {
-  margin-right: 10px;
-  border: none;
-  background: #eee;
-  padding: 5px 10px;
-  cursor: pointer;
-  font-size: 0.85rem;
-}
-  
-.project-filters button:hover {
-  background: #ddd;
-}
-
-
-
-
-/* ProjectCard.js */
-.project-card {
-  margin-top: 30px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 20px;
-}
-  
-.project-card h3 {
-  margin: 0;
-  font-size: 1.2rem;
-}
-  
-.project-card .role {
-  margin-top: 5px;
-  font-size: 0.9rem;
-  font-style: italic;
-  color: #555;
-}
-  
-.project-card .tags {
-  margin-top: 10px;
-  font-size: 0.85rem;
-  color: #777;
-}
-  
-.project-card a {
-  margin-right: 10px;
-  font-size: 0.8rem;
-  text-decoration: none;
-  color: #00f;
-}
-  
-.project-card a:hover {
-  text-decoration: underline;
-}
-
-
-
 
 
 /* Sidebar.js */
@@ -232,7 +156,7 @@ html, body, #root, .App {
   gap: 20px;
   font-size: 1.6rem;
   margin-top: 0px;
-  color: #0b0d0f; /* Example light-blue color for icons */
+  color: #0b0d0f;
 }
   
 .sidebar-icons a {
@@ -266,7 +190,7 @@ html, body, #root, .App {
   margin: 0 0 10px;
   font-size: 1.2rem;
   margin-bottom: 10px;
-  color: var(--trade-dress); /* title color */
+  color: var(--trade-dress);
 }
 
 .news-item {
@@ -282,8 +206,8 @@ html, body, #root, .App {
 
 /* Footer.js */
 .footer {
-  background: var(--trade-dress); /* adjust to your desired color */
-  color: #f0f0f0;       /* light text on darker background */
+  background: var(--trade-dress);
+  color: #f0f0f0;
   padding: 7px;
   font-size: 1rem;
   line-height: 1.4;

@@ -1,5 +1,5 @@
 import React from 'react';
-import newsData from '../../data/news.json'; // Import the JSON data
+import newsData from '../../data/news.json';
 import NewsItem from './NewsItem';
 import './News.css';
 

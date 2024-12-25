@@ -1,0 +1,54 @@
+[
+  {
+    "title": "Researching Legal AI Systems",
+    "organization": "Intellicon",
+    "orgLink": "https://intellicon.co.kr/", 
+    "role": "AI Researcher",
+    "date": "Oct. 2024 - Present",
+    "logo": "/assets/images/logos/intellicon.png"
+  },
+  {
+    "title": "Developing RAG-LLM Systems for Common Carbon AI",
+    "organization": "Newtonne",
+    "orgLink": "https://newtonne.io/en/about", 
+    "role": "AI Developer",
+    "date": "Aug. 2024 - Present",
+    "logo": "/assets/images/logos/newtonne.png"
+  },
+  {
+    "title": "Summarizing Precedents using Large Language Models",
+    "organization": "Patent Court of Korea",
+    "orgLink": "https://patent.scourt.go.kr/main/new/Main.work", 
+    "role": "Researcher",
+    "date": "Oct. 2023 - Feb. 2024",
+    "logo": "/assets/images/logos/court.png",
+    "description": "Summarizing judicial precedents using deep learning/LLMs to help the judges figure out the case more easily."
+  },
+  {
+    "title": "Tight Bounding Boxes for Shape Decomposition",
+    "organization": "KAIST Visual AI Group",
+    "orgLink": "https://visualai.kaist.ac.kr/", 
+    "role": "Research Intern",
+    "date": "Jan. 2022 - Mar. 2023",
+    "logo": "/assets/images/logos/kaist.png",
+    "description": "Conducting research on the decomposition of 3D shapes using tight bounding boxes under the supervision of Prof. Minhyuk Sung."
+  },
+  {
+    "title": "High-Frequency Trading Strategy using Order Book",
+    "organization": "Schperics",
+    "orgLink": "https://www.schperics.com/", 
+    "role": "Quant Research Intern",
+    "date": "Jun. 2022 - Oct. 2022",
+    "logo": "/assets/images/logos/schperics.png",
+    "description": "Finding high-frequency trading strategy using deep learning with cryptocurrency order book data."
+  },
+  {
+    "title": "Long Term Video Prediction using VAE",
+    "organization": "KAIST Vision and Learning Lab",
+    "orgLink": "https://vllab.kaist.ac.kr/", 
+    "role": "Research Intern",
+    "date": "Jun. 2021 - Dec. 2021",
+    "logo": "/assets/images/logos/kaist.png",
+    "description": "Explored how to solve the frame collapse problem when generating long-term videos using VAE/GANs."
+  }
+]

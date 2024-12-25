@@ -17,8 +17,7 @@
   font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 10px;
-  color: #333; /* your main text color */
-  /* If you want an accent color similar to your headings, adjust accordingly */
+  color: #333;
 }
 
 .interests-list {
@@ -37,7 +36,7 @@
 
 .interest-icon {
   margin-right: 10px;
-  color: #444; /* can match your site¡¯s icon color */
+  color: #444;
 }
 
 /* Right column: Education */
@@ -88,6 +87,10 @@
   color: #555;
   line-height: 1.4;
   margin: 0;
+}
+
+.edu-date {
+  font-style: italic;
 }
 
 @media (max-width: 768px) {

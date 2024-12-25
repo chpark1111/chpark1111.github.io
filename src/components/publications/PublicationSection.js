@@ -7,7 +7,7 @@ function Publications() {
   return (
     <section className="publications-section" id="publications">
       <div className="publications-header">
-        <h2>Publications</h2>
+        <h2>📄 Publications</h2>
       </div>
       <div className="publications-list">
         {publicationsData.map((pub, i) => (
