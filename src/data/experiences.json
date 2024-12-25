@@ -25,7 +25,7 @@
     "description": "Summarizing judicial precedents using deep learning/LLMs to help the judges figure out the case more easily."
   },
   {
-    "title": "Tight Bounding Boxes for Shape Decomposition",
+    "title": "Tight Bounding Boxes for 3D Shape Decomposition",
     "organization": "KAIST Visual AI Group",
     "orgLink": "https://visualai.kaist.ac.kr/", 
     "role": "Research Intern",
