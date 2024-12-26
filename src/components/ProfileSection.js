@@ -6,7 +6,7 @@ function ProfileSection() {
     <section className="profile-section" id="introduction">
       <h2>🐥 Introduction</h2>
       <div className="intro">
-        <p> I am Chanhyeok Park, an ambitious and self-driven undergraduate student at the KAIST School of Computing. My academic interests lie at the intersection of <b>Intellectual Property (IP) law, deep learning, 3D computer vision, and LLMs</b>. Currently, my primary focus is exploring how advanced deep learning methodologies, particularly <b>Large Language Models (LLMs)</b>, can be effectively applied to Legal Technology, aiming to drive meaningful innovation in the <b> legal domain </b>. </p>
+        <p> I am Chanhyeok Park, an ambitious and self-driven undergraduate student at the KAIST School of Computing. My academic interests lie at the intersection of <b>Intellectual Property (IP) Law, Deep Learning, 3D Computer Vision, and LLMs</b>. Currently, my primary focus is exploring how advanced deep learning methodologies, particularly <b>Large Language Models (LLMs)</b>, can be effectively applied to Legal Technology, aiming to drive meaningful innovation in the <b> legal domain </b>. </p>
         <p> During my time as a research intern at{' '}
         <a
           href="https://visualai.kaist.ac.kr/"
