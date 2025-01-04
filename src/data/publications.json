@@ -7,11 +7,12 @@
     "authors": "Chanhyeok Park, WooJung Jon",
     "venue": "Copyright Quarterly 2024 Winter (Vol.148)",
     "tags": [
-      { "label": "PDF", "style": "red", "href": "", "icon": "/assets/icons/pdf.png" },
-      { "label": "Copyright Quarterly", "style": "orange", "href": "", "icon": "/assets/icons/CQ.png" },
-      { "label": "KCI", "style": "blue", "href": "", "icon": "/assets/icons/kci.jpeg" },
+      { "label": "PDF", "style": "red", "href": "/assets/pdf/인공지능_산출물_보호에_관한_연구_인간의_개입_정도를_중심으로.pdf", "icon": "/assets/icons/pdf.png" },
+      { "label": "Copyright Quarterly", "style": "orange", "href": "https://www.copyright.or.kr/information-materials/publication/the-copyright/detailList.do?seq_no=148", "icon": "/assets/icons/CQ.png" },
+      { "label": "KCI", "style": "blue", "href": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003158926", "icon": "/assets/icons/kci.jpeg" },
       { "label": "BibTeX", "style": "gray", "href": "", "icon": "/assets/icons/tex.png" }
-    ]
+    ],
+    "bibtex": "@article{ART003158926,\n author={박찬혁 and 전우정},\n title={인공지능 산출물 보호에 관한 연구 - 인간의 개입 정도를 중심으로},\n journal={계간 저작권}, issn={1226-0967},\n year={2024}, volume={37}, number={4}, pages={115-163}\n}"
   },
   {
     "showTeaserImage": true,
@@ -28,7 +29,7 @@
       { "label": "Poster", "style": "purple", "href": "/assets/pdf/SMART_poster.pdf", "icon": "/assets/icons/poster.png" },
       { "label": "BibTeX", "style": "gray", "href": "", "icon": "/assets/icons/tex.png" }
     ],
-    "bibtex": "@inproceedings{Park:2024SMART,\ntitle={Split, Merge, and Refine: Fitting Tight Bounding Boxes via Over-Segmentation and Iterative Search},\nauthor={Park, Chanhyeok and Sung, Minhyuk},\nbooktitle= {3DV},\nyear={2024},\n}"
+    "bibtex": "@inproceedings{Park:2024SMART,\n title={Split, Merge, and Refine: Fitting Tight Bounding Boxes via Over-Segmentation and Iterative Search},\n author={Park, Chanhyeok and Sung, Minhyuk},\n booktitle= {3DV},\n year={2024}\n}"
   },
   {
     "showTeaserImage": true,
