@@ -3,12 +3,12 @@
     "showTeaserImage": false,
     "teaserImage": "",
     "awardText": "My First Legal Research Paper!",
-    "title": "A Study on the Protection of AI-Generated Works - Focusing on the Degree of Human Involvement -",
+    "title": "A Study on the Protection of AI-Generated Works - Focusing on the Degree of Human Involvement",
     "authors": "Chanhyeok Park, WooJung Jon",
     "venue": "Copyright Quarterly 2024 Winter (Vol.148)",
     "tags": [
       { "label": "PDF", "style": "red", "href": "/assets/pdf/인공지능_산출물_보호에_관한_연구_인간의_개입_정도를_중심으로.pdf", "icon": "/assets/icons/pdf.png" },
-      { "label": "Copyright Quarterly", "style": "orange", "href": "https://www.copyright.or.kr/information-materials/publication/the-copyright/detailList.do?seq_no=148", "icon": "/assets/icons/CQ.png" },
+      { "label": "Copyright Quarterly", "style": "orange", "href": "https://www.copyright.or.kr/eng/publications/copyright-quarterly-list/detail.do?seq_no=68", "icon": "/assets/icons/CQ.png" },
       { "label": "KCI", "style": "blue", "href": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003158926", "icon": "/assets/icons/kci.jpeg" },
       { "label": "BibTeX", "style": "gray", "href": "", "icon": "/assets/icons/tex.png" }
     ],
