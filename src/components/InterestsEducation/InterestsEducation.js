@@ -34,7 +34,7 @@ function InterestsEducation() {
             </strong>
             <p className="edu-details">
               Korea Advanced Institute of Science & Technology (KAIST), South Korea <br />
-              <span className="edu-date">Mar. 2020 - Present</span> <br />
+              <span className="edu-date">Mar. 2020 - Feb. 2025</span> <br />
               GPA: 4.03/4.3 <em>(Summa Cum Laude)</em>
             </p>
           </div>
