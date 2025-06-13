@@ -1,19 +1,27 @@
 [
   {
-    "title": "Researching Legal AI Systems",
-    "organization": "Intellicon",
-    "orgLink": "https://intellicon.co.kr/", 
-    "role": "AI Researcher",
-    "date": "Oct. 2024 - Present",
-    "logo": "/assets/images/logos/intellicon.png"
+    "title": "Developing AI Systems for the GGGI",
+    "organization": "Global Green Growth Institute",
+    "orgLink": "https://gggi.org/", 
+    "role": "Intern",
+    "date": "June. 2025 - Present",
+    "logo": "/assets/images/logos/gggi.png"
   },
   {
-    "title": "Developing RAG-LLM Systems for Common Carbon AI",
+    "title": "Developing RAG-LLM Systems for environmental accessibility",
     "organization": "Newtonne",
     "orgLink": "https://newtonne.io/en/about", 
     "role": "AI Scientist",
     "date": "Aug. 2024 - Present",
     "logo": "/assets/images/logos/newtonne.png"
+  },
+  {
+    "title": "Researching Legal AI Systems",
+    "organization": "Intellicon",
+    "orgLink": "https://intellicon.co.kr/", 
+    "role": "AI Researcher",
+    "date": "Oct. 2024 - Jan. 2025",
+    "logo": "/assets/images/logos/intellicon.png"
   },
   {
     "title": "Summarizing Precedents using Large Language Models",
