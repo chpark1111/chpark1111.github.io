@@ -1,13 +1,5 @@
 [
   {
-    "title": "Developing AI Systems for the GGGI",
-    "organization": "Global Green Growth Institute",
-    "orgLink": "https://gggi.org/", 
-    "role": "Intern",
-    "date": "June. 2025 - Present",
-    "logo": "/assets/images/logos/gggi.png"
-  },
-  {
     "title": "Developing RAG-LLM Systems for environmental accessibility",
     "organization": "Newtonne",
     "orgLink": "https://newtonne.io/en/about", 
@@ -39,7 +31,7 @@
     "role": "Research Intern",
     "date": "Jan. 2022 - Mar. 2023",
     "logo": "/assets/images/logos/kaist.png",
-    "description": "Conducting research on the decomposition of 3D shapes using tight bounding boxes under the supervision of Prof. Minhyuk Sung."
+    "description": "Conducting research on the decomposition of 3D shapes using tight bounding boxes."
   },
   {
     "title": "High-Frequency Trading Strategy using Order Book",
