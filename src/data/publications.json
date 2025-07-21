@@ -2,6 +2,7 @@
   {
     "showTeaserImage": true,
     "teaserImage": "/assets/images/publications/AICopyRight_teaser.png",
+    "teaserLink": "/assets/pdf/인공지능_산출물_보호에_관한_연구_인간의_개입_정도를_중심으로.pdf",
     "awardText": "My First Legal Research Paper!",
     "title": "A Study on the Protection of AI-Generated Works - Focusing on the Degree of Human Involvement",
     "authors": "Chanhyeok Park, WooJung Jon",
@@ -17,6 +18,7 @@
   {
     "showTeaserImage": true,
     "teaserImage": "/assets/images/publications/SMART_teaser.png",
+    "teaserLink": "/assets/pdf/SMART.pdf",
     "awardText": "My First Computer Science Paper!",
     "title": "Split, Merge, and Refine: Fitting Tight Bounding Boxes via Over-Segmentation and Iterative Search",
     "authors": "Chanhyeok Park, Minhyuk Sung",
@@ -34,6 +36,7 @@
   {
     "showTeaserImage": true,
     "teaserImage": "/assets/images/publications/TechLeakDam_teaser.png",
+    "teaserLink": "https://drive.google.com/file/d/1R8WC9U00wcHbJMYMqxkKO6bU1dHPFiu2/view?usp=sharing",
     "awardText": "",
     "title": "A Study on the Calculation of Technology Leakage Damage",
     "authors": "전우정, 박성필, 박태정, 김범태, 정유경, 이창곤, 김기범, 박찬혁(Chanhyeok Park), 홍유승",

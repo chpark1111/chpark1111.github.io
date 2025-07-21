@@ -15,6 +15,7 @@ function Publications() {
             key={i}
             showTeaserImage={pub.showTeaserImage}
             teaserImage={pub.teaserImage}
+            teaserLink={pub.teaserLink}
             awardText={pub.awardText}
             title={pub.title}
             authors={pub.authors}

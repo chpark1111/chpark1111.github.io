@@ -8,6 +8,7 @@ import { highlightMyName } from './highlightMyName';
 function PublicationItem({ 
   showTeaserImage,
   teaserImage,
+  teaserLink,
   awardText,
   title,
   authors,
@@ -37,9 +38,14 @@ function PublicationItem({
   return (
     <div className="publication-item">
       {showTeaserImage && teaserImage ? (
-        <div className="teaser-image-wrap">
+        <a 
+          href={teaserLink || '#'}
+          target={teaserLink ? '_blank' : '_self'}
+          rel="noopener noreferrer"
+          className="teaser-image-wrap"
+        >
           <img src={teaserImage} alt="Teaser" className="teaser-image" />
-        </div>
+        </a>
       ) : showTeaserImage ? (
         <div className="teaser-image-wrap placeholder" />
       ) : null }

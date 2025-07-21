@@ -69,12 +69,46 @@
 }
 
 .experience-organization a {
+  text-decoration: none; 
   color: var(--trade-dress);
+  font-weight:600;
+  display:inline-block;
+  position:relative;
+  transition:
+      color        .25s ease,
+      transform    .25s cubic-bezier(.4,.0,.2,1);
 }
 
-.experience-organization a:hover {
-  font-weight: bold;
+.experience-organization a::after{
+  content:"";
+  position:absolute;
+  left:0; bottom:3px;
+  width:100%;
+  height:1px;
+  background:#125cb0;
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform .25s cubic-bezier(.4,0,.2,1);
 }
+
+.experience-organization a:hover,
+.experience-organization a:focus-visible{
+  color:#063d83;
+  transform:translateY(-1px) scale(1.03);
+}
+
+.experience-organization a:hover::after,
+.experience-organization a:focus-visible::after{
+  transform:scaleX(1);
+}
+
+.experience-organization a:focus-visible{
+  outline:none;
+  box-shadow:0 0 0 3px rgba(18,92,176,.35);
+  border-radius:2px;
+}
+
+
 
 /* Optional: style role, date slightly differently */
 .experience-role {
