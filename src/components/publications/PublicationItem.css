@@ -16,10 +16,10 @@
 /* Publication Teasers */
 
 .teaser-image-wrap {
-  width: 210px;
-  height: 140px;
-  margin-right: 20px;
-  flex-shrink: 0;
+  flex: 0 0 clamp(120px, 35%, 240px);
+  aspect-ratio: 3 / 2;
+  overflow: hidden;
+  margin-right: 15px
 }
 
 .teaser-image-wrap.placeholder {
@@ -34,6 +34,18 @@
   border-radius: 4px;
 }
 
+@media (max-width: 600px){
+  .publication-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .teaser-image-wrap {
+    width: 100%;
+    max-width: 260px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+}
 
 /* Publication Details */
 

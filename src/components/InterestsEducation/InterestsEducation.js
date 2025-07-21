@@ -2,9 +2,9 @@ import React from 'react';
 import { FaBook, FaGraduationCap } from 'react-icons/fa';
 import './InterestsEducation.css';
 
-function InterestsEducation() {
+function InterestsEducation({ className = '' }) {
   return (
-    <section className="interests-education-section">
+    <section className={`interests-education-section ${className}`}>
       <div className="interests-col">
         <h3 className="section-title">Interests</h3>
         <ul className="interests-list">

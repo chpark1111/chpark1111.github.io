@@ -8,13 +8,10 @@
 
 /* Wrap for the small logo on the left */
 .experience-logo-wrap {
-  width: 180px;
-  height: 60px;
-  flex-shrink: 0;
-  margin-right: 15px;
+  flex: 0 0 clamp(120px, 35%, 160px);
+  aspect-ratio: 3 / 2;
   overflow: hidden;
-  border-radius: 6px;
-  display: flex;
+  margin-right: 10px;
   align-items: center;
   justify-content: center;
 }
@@ -25,6 +22,24 @@
   object-fit: contain; 
 }
 
+@media (max-width: 600px){
+  .experience-item {
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience-content{
+    width:100%;
+    text-align:left;
+    align-items:flex-start;
+    margin-top:12px;
+  }
+
+  .experience-logo-wrap {
+    width: 100%;
+    max-width: 200px;
+    margin:-10px 0 20px;
+  }
+}
 
 /* Content on the right side */
 .experience-content {
@@ -77,8 +92,6 @@
   color: #555;
   line-height: 1.4;
 }
-
-
 
 
 .experiences-section {

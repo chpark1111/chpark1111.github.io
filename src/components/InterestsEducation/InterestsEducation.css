@@ -6,11 +6,8 @@
   margin-bottom: -20px;
 }
 
-/* Left column: Interests */
-.interests-col {
-  flex: 1; 
-  min-width: 250px;
-  max-width: 500px;
+.education-section {
+  margin-top: 0;
 }
 
 .section-title {
@@ -46,10 +43,6 @@
   margin-bottom: 20px;
 }
 
-.education-section {
-  margin-top: 0px;
-  margin-left: -100px;
-}
 
 .education-title {
   font-size: 1.4rem;
@@ -98,4 +91,3 @@
     flex-direction: column;
   }
 }
-  

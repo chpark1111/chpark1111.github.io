@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  transition: all .25s ease;
+}
+
+:root {
+  --sidebar-min: 120px;
+  --sidebar-max: 340px;
+}
+
+/* 1. 데스크탑 기본 ───────────────────────── */
+.main-content {
+  display: flex;
+  gap: 40px;
+}
+
+.sidebar {
+  flex: 0 1 clamp(var(--sidebar-min), 24vw, var(--sidebar-max));
+  text-align: center;
+}
+
+.sidebar .profile-img {
+  width: 100%;
+  max-width: var(--sidebar-max);
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  object-fit: cover;
+  height: auto;
+  margin: 0 auto 20px;
+}
+
+.content-grid { flex: 1; }
+
+/* Interests · Education */
+.info-section {
+  display: flex;                   /* 기본은 flex 두 칸 */
+  flex-wrap: wrap;
+  gap: clamp(10px, 4vw, 52px);
+  row-gap: 0px;
+}
+
+.info-section > :first-child {
+  flex: 1 1 260px;
+}
+
+/* ❷ Education—오른쪽 칸: 더 넓게 우선 배분 */
+.info-section > :nth-child(2) {
+  flex: 2 1 380px;
+}
+
+
+/* 2. iPad 세로 (~1024 px) ───────────────── */
+@media (max-width: 1023px) {
+  .main-content { gap: 32px; }
+  .sidebar{
+    flex:0 1 clamp(160px, 28vw, 260px);
+  }
+}
+
+/* 3. 모바일 (~866 px) ───────────────────── */
+@media (max-width: 866px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 0 16px;
+  }
+
+  .sidebar{
+    max-width: 350px;
+    padding: 24px 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ★ 그리드로 전환해 한 줄에 하나씩 */
+  .info-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: clamp(16px, 5vw, 48px);
+    row-gap: 0px;
+  }
+}
+
+/* 4. 초소형 폰 (~400 px) ────────────────── */
+@media (max-width: 400px) {
+  .sidebar {
+    max-width: 200px;
+    padding: 24px 0 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-img {
+    max-width: 200px;
+    width: 100vw;
+  }
+
+  .sidebar-icons {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 14px;
+    font-size: 1.5rem;
+    margin-top: 14px;
+  }
+}
