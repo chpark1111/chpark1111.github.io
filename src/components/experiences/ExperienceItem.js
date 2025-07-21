@@ -1,6 +1,10 @@
 import React from 'react';
 import './Experience.css';
 
+function emphasizePresent(text) {
+  return text.replace(/Present/i, '<span class="present">Present</span>');
+}
+
 function ExperienceItem({ 
   title, 
   organization, 

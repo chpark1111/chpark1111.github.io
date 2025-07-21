@@ -1,5 +1,13 @@
 [
   {
+    "title": "Developing AI Systems for GGGI",
+    "organization": "Global Green Growth Institute",
+    "orgLink": "https://gggi.org/", 
+    "role": "Intern",
+    "date": "June. 2025 - Present",
+    "logo": "/assets/images/logos/gggi.png"
+  },
+  {
     "title": "Developing RAG-LLM Systems for environmental accessibility",
     "organization": "Newtonne",
     "orgLink": "https://newtonne.io/en/about", 

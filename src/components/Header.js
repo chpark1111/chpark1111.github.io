@@ -33,7 +33,7 @@ function Header() {
         <span onClick={() => smoothScrollTo('#introduction')}>Introduction</span>
         <span onClick={() => smoothScrollTo('#publications')}>Publications</span>
         <span onClick={() => smoothScrollTo('#experiences')}>Experiences</span>
-        {/* <span onClick={() => smoothScrollTo('#awards')}>Awards & Honors</span> */}
+        {<span onClick={() => smoothScrollTo('#skills')}>Skills</span>}
         <span onClick={() => window.open(resume, '_blank')}>CV</span>
       </div>
     </header>

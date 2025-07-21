@@ -1,7 +1,7 @@
 [
   {
-    "showTeaserImage": false,
-    "teaserImage": "",
+    "showTeaserImage": true,
+    "teaserImage": "/assets/images/publications/AICopyRight_teaser.png",
     "awardText": "My First Legal Research Paper!",
     "title": "A Study on the Protection of AI-Generated Works - Focusing on the Degree of Human Involvement",
     "authors": "Chanhyeok Park, WooJung Jon",

@@ -1,0 +1,38 @@
+[
+  {
+    "category": "Machine Learning",
+    "skills": [
+      { "name": "PyTorch",     "icon": "pytorch",     "color": "#EE4C2C" },
+      { "name": "TensorFlow",  "icon": "tensorflow",  "color": "#FF6F00" },
+      { "name": "Keras",       "icon": "keras",       "color": "#D00000" },
+      { "name": "JAX",  "img": "/assets/logos/jax_logo.svg",   "color": "#A374DB" }
+    ]
+  },
+
+  {
+    "category": "Programming Languages",
+    "skills": [
+      { "name": "Python",      "icon": "python",      "color": "#3776AB" },
+      { "name": "R",           "icon": "r",           "color": "#276DC3" },
+      { "name": "C",           "icon": "c",           "color": "#A8B9CC" },
+      { "name": "C++",         "icon": "cplusplus",   "color": "#00599C" },
+      { "name": "Rust",        "icon": "rust",        "color": "#DEA584" },
+      { "name": "Scala",       "icon": "scala",       "color": "#DC322F" },
+      { "name": "Swift",       "icon": "swift",       "color": "#FA7343" },
+      { "name": "JavaScript",  "icon": "javascript",  "color": "#F7DF1E" }
+    ]
+  },
+
+  {
+    "category": "Frameworks",
+    "skills": [
+      { "name": "React",       "icon": "react",       "color": "#61DAFB" },
+      { "name": "Markdown",    "icon": "markdown",    "color": "#2F3338" },
+      { "name": "LaTeX",       "icon": "latex",       "color": "#008080" },
+      { "name": "LangChain",   "icon": "langchain",   "color": "#3DFF88" },
+      { "name": "Docker",      "icon": "docker",      "color": "#2496ED" },
+      { "name": "Git",         "icon": "git",         "color": "#F05032" },
+      { "name": "SQL",         "icon": "mysql",       "color": "#4479A1" }
+    ]
+  }
+]
