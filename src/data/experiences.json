@@ -1,5 +1,14 @@
 [
   {
+    "title": "Researching Graph-RAG Tax AI Systems",
+    "organization": "Intellicon",
+    "orgLink": "https://intellicon.co.kr/", 
+    "role": "AI Researcher",
+    "date": "Nov. 2025 - Mar. 2026",
+    "logo": "/assets/images/logos/intellicon.png",
+    "description": "Built and designed entity ontologies and knowledge graphs for retrieving statutory, case law, and administrative interpretation data."
+  },
+  {
     "title": "Developing AI Systems for GGGI",
     "organization": "Global Green Growth Institute",
     "orgLink": "https://gggi.org/", 
@@ -16,21 +25,13 @@
     "logo": "/assets/images/logos/newtonne.png"
   },
   {
-    "title": "Researching Legal AI Systems",
-    "organization": "Intellicon",
-    "orgLink": "https://intellicon.co.kr/", 
-    "role": "AI Researcher",
-    "date": "Oct. 2024 - Jan. 2025",
-    "logo": "/assets/images/logos/intellicon.png"
-  },
-  {
     "title": "Summarizing Precedents using Large Language Models",
     "organization": "Patent Court of Korea",
     "orgLink": "https://patent.scourt.go.kr/main/new/Main.work", 
     "role": "Researcher",
     "date": "Oct. 2023 - Feb. 2024",
     "logo": "/assets/images/logos/court.png",
-    "description": "Summarizing judicial precedents using deep learning/LLMs to help the judges figure out the case more easily."
+    "description": "Applied deep learning and large language models to summarize judicial precedents and help judges understand cases more efficiently."
   },
   {
     "title": "Tight Bounding Boxes for 3D Shape Decomposition",
@@ -39,7 +40,7 @@
     "role": "Research Intern",
     "date": "Jan. 2022 - Mar. 2023",
     "logo": "/assets/images/logos/kaist.png",
-    "description": "Conducting research on the decomposition of 3D shapes using tight bounding boxes."
+    "description": "Conducted research on decomposing 3D meshes into tight bounding boxes using reward-driven search."
   },
   {
     "title": "High-Frequency Trading Strategy using Order Book",
@@ -48,7 +49,7 @@
     "role": "Quant Research Intern",
     "date": "Jun. 2022 - Oct. 2022",
     "logo": "/assets/images/logos/schperics.png",
-    "description": "Finding high-frequency trading strategy using deep learning with cryptocurrency order book data."
+    "description": "Researched high-frequency trading strategies using deep learning on cryptocurrency order book data."
   },
   {
     "title": "Long Term Video Prediction using VAE",
@@ -57,6 +58,6 @@
     "role": "Research Intern",
     "date": "Jun. 2021 - Dec. 2021",
     "logo": "/assets/images/logos/kaist.png",
-    "description": "Explored how to solve the frame collapse problem when generating long-term videos using VAE/GANs."
+    "description": "Explored methods for addressing frame collapse in long-term video generation using VAEs and GANs."
   }
 ]

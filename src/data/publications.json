@@ -8,9 +8,11 @@
     "authors": "Juil Koo*, Wei-Tung Lin*, Chanho Park, Chanhyeok Park, Minhyuk Sung (* Equal Contribution)",
     "venue": "WACV 2026 (IEEE/CVF Winter Conference on Applications of Computer Vision)",
     "tags": [
+      { "label": "PDF", "style": "red", "href": "/assets/pdf/boxsplitgen.pdf", "icon": "/assets/icons/pdf.png" },
+      { "label": "arXiv", "style": "green", "href": "https://arxiv.org/abs/2602.20666", "icon": "/assets/icons/arXiv.png" },
       { "label": "BibTeX", "style": "gray", "href": "", "icon": "/assets/icons/tex.png" }
     ],
-    "bibtex": ""
+    "bibtex": "@inproceedings{Koo:2026BoxSplitGen,\n title={BoxSplitGen: A Generative Model for 3D Part Bounding Boxes in Varying Granularity},\n author={Koo, Juil* and Lin, Wei-Tung* and Park, Chanho and Park, Chanhyeok and Sung, Minhyuk},\n booktitle= {WACV},\n year={2026}\n}"
   },
   {
     "showTeaserImage": true,

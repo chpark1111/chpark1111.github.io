@@ -14,7 +14,7 @@ function InterestsEducation({ className = '' }) {
           </li>
           <li>
             <FaBook className="interest-icon" />
-            <strong> Intellectual Property (IP) Law</strong>
+            <strong> Finance</strong>
           </li>
           <li>
             <FaBook className="interest-icon" />
