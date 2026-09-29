@@ -1,19 +1,19 @@
 [
   {
-    "title": "Researching Graph-RAG Tax AI Systems",
+    "title": "Researching Graph-RAG Tax AI Systems & Agentic AI",
     "organization": "Intellicon",
     "orgLink": "https://intellicon.co.kr/eng/", 
     "role": "AI Researcher",
     "date": "Nov. 2025 - Mar. 2026",
     "logo": "/assets/images/logos/intellicon.png",
-    "description": "Built and designed entity ontologies and knowledge graphs for retrieving statutory, case law, and administrative interpretation data."
+    "description": "Designed and built entity ontologies and knowledge graphs to retrieve statutes, case law, and administrative interpretations. Developed an agentic AI system to answer tax-related questions."
   },
   {
     "title": "Developing AI Systems for GGGI",
     "organization": "Global Green Growth Institute",
     "orgLink": "https://gggi.org/", 
     "role": "Intern",
-    "date": "June. 2025 - Dec. 2025",
+    "date": "Sep. 2025 - Dec. 2025",
     "logo": "/assets/images/logos/gggi.png"
   },
   {

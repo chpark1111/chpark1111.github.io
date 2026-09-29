@@ -10,8 +10,8 @@ function Sidebar() {
     <aside className="sidebar">
       <img src={profileImg} alt="Profile" className="profile-img" />
       <h2 className="name">Chanhyeok Park</h2>
-      <div className="subtitle">Undergraduate Student at KAIST</div>
-      <div className="affiliation">KAIST CS & IP</div>
+      <div className="subtitle">Ph.D. Student at KAIST</div>
+      <div className="affiliation">KAIST AI Future Studies</div>
       <div className="sidebar-icons">
         <a href="mailto:chpark11111023@gmail.com" target="_blank" rel="noreferrer" aria-label="Email">
           <FaEnvelope />

@@ -36,6 +36,38 @@
   color: #444;
 }
 
+.affiliations-section {
+  margin: 28px 0 20px;
+}
+
+.affiliations-section .section-title {
+  margin-top: 0;
+}
+
+.affiliation-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.affiliation-icon {
+  flex-shrink: 0;
+  margin-top: 4px;
+  color: #444;
+}
+
+.affiliation-name {
+  font-size: 1rem;
+  color: #333;
+}
+
+.affiliation-role {
+  margin: 4px 0 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  color: #555;
+}
+
 /* Right column: Education */
 .education-item {
   display: flex;

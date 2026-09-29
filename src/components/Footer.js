@@ -6,7 +6,7 @@ function Footer() {
 		<footer className="footer">
 			<div className="footer-content">
 				<p>
-					© 2024-2025. Chanhyeok Park all rights reserved. <br/>
+					© 2024–{new Date().getFullYear()} Chanhyeok Park. All rights reserved. <br/>
 					This website was designed by Chanhyeok and built with React.
 				</p>
 			</div>

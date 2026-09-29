@@ -1,0 +1,197 @@
+% Standalone academic CV. No external class or assets are required.
+\documentclass[10pt,a4paper]{article}
+\usepackage[left=22mm,right=22mm,top=17mm,bottom=19mm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{tabularx}
+\usepackage{needspace}
+\usepackage{hyperref}
+
+\definecolor{ink}{HTML}{20252B}
+\definecolor{linkblue}{HTML}{233F59}
+\definecolor{muted}{HTML}{555E68}
+\definecolor{rulegray}{HTML}{B6BDC4}
+\hypersetup{colorlinks=true,urlcolor=linkblue,linkcolor=linkblue,
+  pdftitle={Chanhyeok Park -- Curriculum Vitae},pdfauthor={Chanhyeok Park}}
+\urlstyle{same}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\emergencystretch}{2em}
+\AtBeginDocument{\fontsize{10.5pt}{13.2pt}\selectfont\color{ink}\RaggedRight}
+\clubpenalty=10000
+\widowpenalty=10000
+\raggedbottom
+\pagestyle{plain}
+
+\titleformat{\section}{\large\bfseries\color{linkblue}}{}{0pt}{}
+  [\vspace{1pt}{\color{rulegray}\titlerule[0.35pt]}]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+\setlist[enumerate]{leftmargin=1.7em,labelsep=0.6em,itemsep=7pt,
+  topsep=0pt,parsep=0pt,partopsep=0pt}
+\newenvironment{cvlist}{%
+  \begin{itemize}[leftmargin=0pt,label={},itemsep=9pt,
+    topsep=0pt,parsep=0pt,partopsep=0pt]%
+}{\end{itemize}}
+\newenvironment{researchdirections}{%
+  \begin{itemize}[leftmargin=1.3em,label=\textbullet,itemsep=4pt,
+    topsep=4pt,parsep=0pt,partopsep=0pt]%
+}{\end{itemize}}
+
+% Reserve enough space for a heading and the start of its entry.
+\newcommand{\entryhead}[2]{%
+  \Needspace{4\baselineskip}%
+  \item\begin{tabularx}{\linewidth}[t]{@{}>{\raggedright\arraybackslash}X@{\hspace{1em}}r@{}}%
+    \textbf{#2} & {\small\color{muted}#1}\\
+  \end{tabularx}\par\nobreak%
+}
+\newcommand{\entrytopic}[1]{%
+  {\itshape #1\par}\nobreak%
+}
+\newcommand{\entrymeta}[1]{%
+  {\small\color{muted}#1\par}\nobreak\vspace{1pt}%
+}
+\newcommand{\link}[2]{\href{#1}{#2}}
+\newcommand{\cvheader}{%
+  \begin{tabularx}{\textwidth}{@{}Xr@{}}%
+    {\fontsize{24pt}{27pt}\selectfont\bfseries Chanhyeok Park} &
+      {\small\href{mailto:chpark11111023@gmail.com}{chpark11111023@gmail.com}}\\[3pt]
+    KAIST AI Future Studies &
+      {\small\link{https://chpark1111.github.io/}{https://chpark1111.github.io/}}\\
+  \end{tabularx}\par\vspace{7pt}%
+  {\small\color{muted}\textbf{Research interests:}
+   AI Safety / AI Governance\enspace\textperiodcentered\enspace
+   IP Law \& Legal Technology\enspace\textperiodcentered\enspace Finance\par}%
+}
+
+\begin{document}
+\cvheader
+
+\section{Introduction}
+I am Chanhyeok Park, a graduate student in the integrated M.S.--Ph.D. program at KAIST AI Future Studies, where I work under the guidance of \link{https://fs.kaist.ac.kr/ko/?c=184&s=&cidx1=41&gp=1&gbn=viewok&ix=1545}{Prof. Woojung Jon}. I earned my bachelor's degree from the KAIST School of Computing. Alongside my academic work, I am Co-Founder and CTO of \textbf{IP Intelligence}.
+
+\smallskip
+My research centers on \textbf{AI safety}, which I approach through two complementary directions.
+\begin{researchdirections}
+  \item In \textbf{legal research}, I study AI governance and regulation, including frameworks such as the EU AI Act. I examine how risk-based regulation, legal accountability, and institutional oversight should be designed to prevent harm and protect fundamental rights throughout AI development and deployment.
+  \item In \textbf{technical research}, I explore how large language models (LLMs) and agentic AI can be trained, evaluated, and deployed safely. My interests include safety alignment, adversarial testing, and safeguards against harmful outputs and unintended agent actions.
+\end{researchdirections}
+
+\smallskip
+During my undergraduate studies, my work with the \link{https://visualai.kaist.ac.kr/}{KAIST Visual AI Group} under the mentorship of \link{https://mhsung.github.io/}{Prof. Minhyuk Sung} deepened my understanding of AI systems. Collaborating with Prof. Woojung Jon also broadened my perspective on law, society, and interdisciplinary research. This background now informs my approach to AI safety, combining technical understanding with legal inquiry. I envision a future in which AI is safely integrated into everyday life, helping build a more efficient society.
+
+\section{Education}
+\begin{cvlist}
+  \entryhead{Sep. 2026 -- Present}{KAIST AI Future Studies}
+  \entrymeta{Advisor: Prof. Woojung Jon\quad\textperiodcentered\quad GPA: 4.18/4.3}
+  \entrytopic{Integrated M.S.--Ph.D. Program in AI Future Studies}
+
+  \entryhead{Mar. 2020 -- Feb. 2025}{KAIST School of Computing}
+  \entrymeta{GPA: 4.02/4.3 (\textit{Summa Cum Laude})}
+  \entrytopic{B.S. in Computer Science (CS) and Intellectual Property (IP)}
+\end{cvlist}
+
+\section{Publications}
+\begin{enumerate}
+  \item \link{https://arxiv.org/abs/2602.20666}{BoxSplitGen: A Generative Model for 3D Part Bounding Boxes in Varying Granularity}\\*
+  Juil Koo*, Wei-Tung Lin*, Chanho Park, \textbf{Chanhyeok Park}, Minhyuk Sung (* Equal contribution)\\*
+  IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2026
+
+  \item \link{https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003158926}{A Study on the Protection of AI-Generated Works -- Focusing on the Degree of Human Involvement}\\*
+  \textbf{Chanhyeok Park}, Woojung Jon\\*
+  Copyright Quarterly, Vol. 37, No. 4 (Issue 148), Winter 2024
+
+  \item \link{https://arxiv.org/abs/2304.04336}{Split, Merge, and Refine: Fitting Tight Bounding Boxes via Over-Segmentation and Iterative Search}\\*
+  \textbf{Chanhyeok Park}, Minhyuk Sung\\*
+  International Conference on 3D Vision (3DV), 2024
+\end{enumerate}
+
+\section{Experience}
+\begin{cvlist}
+  \entryhead{Present}{Co-Founder and CTO, IP Intelligence}
+
+  \entryhead{Nov. 2025 -- Mar. 2026}{Legal AI researcher}
+  \entrymeta{at \link{https://intellicon.co.kr/eng/}{Intellicon Inc.}}
+  \entrytopic{Researching Graph-RAG Tax AI Systems \& Agentic AI}
+  Researched and developed a Graph-RAG system for tax accountants. Designed and built entity ontologies and knowledge graphs to support rich retrieval across complex statutory, case law, and administrative interpretation data. Developed an agentic AI system to answer tax-related questions.
+
+  \entryhead{Sep. 2025 -- Dec. 2025}{Intern}
+  \entrytopic{Developing Chatbot AI Systems for GGGI}
+  Developing a Retrieval-Augmented Generation (RAG) based Large Language Model (LLM) chatbot at the \link{https://gggi.org/}{Global Green Growth Institute}.
+
+  \entryhead{Aug. 2024 -- Nov. 2025}{AI Scientist}
+  \entrytopic{Developing Carbon AI System}
+  Developing Retrieval-Augmented Generation (RAG) Large Language Models (LLMs) for climate, environmental, and urban applications at \link{https://newtonneeng.imweb.me/?redirect=no}{Newtonne Startup}.
+
+  \entryhead{Oct. 2023 -- Feb. 2024}{Researcher}
+  \entrymeta{Research project with \link{https://patent.scourt.go.kr/patent_new/index_e.work}{Patent Court of Korea}.}
+  \entrytopic{Summarizing Precedents using Large Language Models}
+  Summarizing judicial precedents using deep learning/LLMs to help judges understand cases more easily.
+
+  \entryhead{Jan. 2022 -- Mar. 2023}{Research Intern}
+  \entrymeta{Research intern at \link{https://visualai.kaist.ac.kr/}{KAIST Visual AI Group} under the supervision of \link{https://mhsung.github.io/}{Prof. Minhyuk Sung}.}
+  \entrytopic{Tight Bounding Boxes for Shape Decomposition}
+  After splitting 3D meshes into small partitions, we merge the partitions with a criterion that induces tight bounding boxes. Then, we refine the boxes using MCTS to tighten them by fixing errors.\\
+  Check out the \link{https://arxiv.org/abs/2304.04336}{paper} for more details.
+
+  \entryhead{Jun. 2022 -- Oct. 2022}{Quant Researcher}
+  \entrymeta{Quant research intern at \link{https://www.schperics.com/}{Schperics Inc.}}
+  \entrytopic{High-Frequency Trading Strategy using Order Book}
+  Finding high-frequency trading strategies using deep learning with cryptocurrency order book data.
+
+  \entryhead{Jun. 2021 -- Dec. 2021}{Research Intern}
+  \entrymeta{Research intern at \link{https://vllab.kaist.ac.kr/members.php}{KAIST Vision and Learning Lab} under the supervision of \link{https://maga33.github.io/}{Prof. Seunghoon Hong}.}
+  \entrytopic{Long Term Video Prediction}
+  Solving the frame collapse problem when generating long-term videos. Based on \link{https://arxiv.org/abs/2002.09219}{SRVP}, approaches like \link{https://arxiv.org/abs/1711.00937}{VQVAE}, \link{https://arxiv.org/abs/1910.00775}{Temporal Abstraction}, and Adversarial Training were explored to mitigate error accumulation in the latent vector, a common problem in auto-regressive models.
+\end{cvlist}
+
+\section{Awards, Honors}
+\begin{cvlist}
+  \entryhead{Fall 2024}{\link{https://www.surim.or.kr/kr/talent/winner01.php}{Surim Foundation} Talent Scholarship}
+  Scholarship supported by the Surim Foundation to set an example for others by honoring a student who has made an outstanding achievement or significant contributions while enrolled in an undergraduate program.
+
+  \entryhead{Fall 2024}{\link{https://kiturami.co.kr/en/m31.php}{Kiturami Foundation} College of Engineering Scholarship}
+  Scholarship supported by the Kiturami Foundation for students in engineering fields. Selected as one of two recipients among all KAIST College of Engineering undergraduate students.
+
+  \entryhead{Fall 2023}{CoE Leadership Award, KAIST College of Engineering}
+  Awarded to top students who achieved high research accomplishments.
+
+  \entryhead{Fall 2022}{Dean's List, KAIST School of Computing}
+  Awarded to top students who achieved high academic accomplishments.
+
+  \entryhead{Spring 2022}{National Science \& Technology Scholarship}
+  Scholarship supported by the Korean government for students in science \& engineering fields.
+
+  \entryhead{Fall 2020}{Dean's List, KAIST School of Freshman}
+  Awarded to top students who achieved high academic achievements.
+
+  \entryhead{2019}{\link{https://www.sonjaehan.com/}{Hanseong SonJaeHan Scholarship} (6th)}
+  Awarded to students with creative thinking and passion who show strong potential to receive a Nobel Prize.
+\end{cvlist}
+
+\section{Teaching}
+\begin{cvlist}
+  \entryhead{Fall 2023}{TA of \link{https://mhsung.github.io/kaist-cs479-fall-2023/}{Machine Learning for 3D Data} (CS479)}
+  Mentored team projects on 3D deep learning for KAIST students.
+
+  \entryhead{Fall 2023}{TA of Modern Macroeconomic Theory and Dynamic Programming (HSS310)}
+
+  \entryhead{Fall 2021, Spring 2024}{TA of Introduction to Programming (CS101)}
+  Taught the basics of Python to KAIST students.
+
+  \entryhead{Fall 2020}{Tutor of KAIST Cyber Education for Gifted}
+  Taught the basics of C to elementary school students.
+\end{cvlist}
+
+\section{Skills}
+2020 \link{http://icpckorea.org/}{ACM-ICPC Seoul Regional} 12th place (C, C++)\\
+Python, R, PyTorch, TensorFlow, \LaTeX, MATLAB, SageMath, Scala, JavaScript, React, LangChain
+
+\begin{flushright}
+  \footnotesize Last updated on September 30, 2026
+\end{flushright}
+\end{document}
