@@ -55,6 +55,14 @@
 \newcommand{\entrymeta}[1]{%
   {\small\color{muted}#1\par}\nobreak\vspace{1pt}%
 }
+% One shared structure for every role: date, position, organization,
+% project title (when applicable), and description.
+\newcommand{\experienceentry}[5]{%
+  \entryhead{#1}{#2}%
+  \entrymeta{#3}%
+  \if\relax\detokenize{#4}\relax\else\entrytopic{#4}\fi%
+  #5\par%
+}
 \newcommand{\link}[2]{\href{#1}{#2}}
 \newcommand{\cvheader}{%
   \begin{tabularx}{\textwidth}{@{}Xr@{}}%
@@ -116,41 +124,46 @@ In \textbf{technical research}, I explore how large language models (LLMs) and a
 \clearpage
 \section{Experience}
 \begin{cvlist}
-  \entryhead{Present}{Co-Founder and CTO, IP Intelligence}
+  \experienceentry{Present}{Co-Founder and CTO}
+    {IP Intelligence}
+    {}{}
 
-  \entryhead{Nov. 2025 -- Mar. 2026}{Legal AI researcher}
-  \entrymeta{at \link{https://intellicon.co.kr/eng/}{Intellicon Inc.}}
-  \entrytopic{Researching Graph-RAG Tax AI Systems \& Agentic AI}
-  Researched and developed a Graph-RAG system for tax accountants. Designed and built entity ontologies and knowledge graphs to support rich retrieval across complex statutory, case law, and administrative interpretation data. Developed an agentic AI system to answer tax-related questions.
+  \experienceentry{Nov. 2025 -- Mar. 2026}{Legal AI Researcher}
+    {\link{https://intellicon.co.kr/eng/}{Intellicon Inc.}}
+    {Researching Graph-RAG Tax AI Systems \& Agentic AI}
+    {Researched and developed a Graph-RAG system for tax accountants. Designed and built entity ontologies and knowledge graphs to support rich retrieval across complex statutory, case law, and administrative interpretation data. Developed an agentic AI system to answer tax-related questions.}
 
-  \entryhead{Sep. 2025 -- Dec. 2025}{Intern}
-  \entrytopic{Developing Chatbot AI Systems for GGGI}
-  Developing a Retrieval-Augmented Generation (RAG) based Large Language Model (LLM) chatbot at the \link{https://gggi.org/}{Global Green Growth Institute}.
+  \experienceentry{Sep. 2025 -- Dec. 2025}{Intern}
+    {\link{https://gggi.org/}{Global Green Growth Institute}}
+    {Developing Chatbot AI Systems for GGGI}
+    {Developed a Retrieval-Augmented Generation (RAG)-based Large Language Model (LLM) chatbot.}
 
-  \entryhead{Aug. 2024 -- Nov. 2025}{AI Scientist}
-  \entrytopic{Developing Carbon AI System}
-  Developing Retrieval-Augmented Generation (RAG) Large Language Models (LLMs) for climate, environmental, and urban applications at \link{https://newtonneeng.imweb.me/?redirect=no}{Newtonne Startup}.
+  \experienceentry{Aug. 2024 -- Nov. 2025}{AI Scientist}
+    {\link{https://newtonneeng.imweb.me/?redirect=no}{Newtonne}}
+    {Developing Carbon AI System}
+    {Developed Retrieval-Augmented Generation (RAG) Large Language Models (LLMs) for climate, environmental, and urban applications.}
 
-  \entryhead{Oct. 2023 -- Feb. 2024}{Researcher}
-  \entrymeta{Research project with \link{https://patent.scourt.go.kr/patent_new/index_e.work}{Patent Court of Korea}.}
-  \entrytopic{Summarizing Precedents using Large Language Models}
-  Summarizing judicial precedents using deep learning/LLMs to help judges understand cases more easily.
+  \experienceentry{Oct. 2023 -- Feb. 2024}{Researcher}
+    {\link{https://patent.scourt.go.kr/patent_new/index_e.work}{Patent Court of Korea}}
+    {Summarizing Precedents using Large Language Models}
+    {Summarized judicial precedents using deep learning/LLMs to help judges understand cases more easily, as part of a research project with the court.}
 
-  \entryhead{Jan. 2022 -- Mar. 2023}{Research Intern}
-  \entrymeta{Research intern at \link{https://visualai.kaist.ac.kr/}{KAIST Visual AI Group} under the supervision of \link{https://mhsung.github.io/}{Prof. Minhyuk Sung}.}
-  \entrytopic{Tight Bounding Boxes for Shape Decomposition}
-  After splitting 3D meshes into small partitions, we merge the partitions with a criterion that induces tight bounding boxes. Then, we refine the boxes using MCTS to tighten them by fixing errors.\\
-  Check out the \link{https://arxiv.org/abs/2304.04336}{paper} for more details.
+  \experienceentry{Jan. 2022 -- Mar. 2023}{Research Intern}
+    {\link{https://visualai.kaist.ac.kr/}{KAIST Visual AI Group}}
+    {Tight Bounding Boxes for Shape Decomposition}
+    {Split 3D meshes into small partitions and merged the partitions using a criterion that induces tight bounding boxes. Refined the boxes using MCTS to tighten them by fixing errors. See the \link{https://arxiv.org/abs/2304.04336}{paper} for more details.\par
+    \entrymeta{Supervisor: \link{https://mhsung.github.io/}{Prof. Minhyuk Sung}}}
 
-  \entryhead{Jun. 2022 -- Oct. 2022}{Quant Researcher}
-  \entrymeta{Quant research intern at \link{https://www.schperics.com/}{Schperics Inc.}}
-  \entrytopic{High-Frequency Trading Strategy using Order Book}
-  Finding high-frequency trading strategies using deep learning with cryptocurrency order book data.
+  \experienceentry{Jun. 2022 -- Oct. 2022}{Quant Research Intern}
+    {\link{https://www.schperics.com/}{Schperics Inc.}}
+    {High-Frequency Trading Strategy using Order Book}
+    {Researched high-frequency trading strategies using deep learning with cryptocurrency order book data.}
 
-  \entryhead{Jun. 2021 -- Dec. 2021}{Research Intern}
-  \entrymeta{Research intern at \link{https://vllab.kaist.ac.kr/members.php}{KAIST Vision and Learning Lab} under the supervision of \link{https://maga33.github.io/}{Prof. Seunghoon Hong}.}
-  \entrytopic{Long Term Video Prediction}
-  Solving the frame collapse problem when generating long-term videos. Based on \link{https://arxiv.org/abs/2002.09219}{SRVP}, approaches like \link{https://arxiv.org/abs/1711.00937}{VQVAE}, \link{https://arxiv.org/abs/1910.00775}{Temporal Abstraction}, and Adversarial Training were explored to mitigate error accumulation in the latent vector, a common problem in auto-regressive models.
+  \experienceentry{Jun. 2021 -- Dec. 2021}{Research Intern}
+    {\link{https://vllab.kaist.ac.kr/members.php}{KAIST Vision and Learning Lab}}
+    {Long Term Video Prediction}
+    {Investigated the frame collapse problem in long-term video generation. Based on \link{https://arxiv.org/abs/2002.09219}{SRVP}, explored approaches including \link{https://arxiv.org/abs/1711.00937}{VQVAE}, \link{https://arxiv.org/abs/1910.00775}{Temporal Abstraction}, and Adversarial Training to mitigate error accumulation in the latent vector, a common problem in auto-regressive models.\par
+    \entrymeta{Supervisor: \link{https://maga33.github.io/}{Prof. Seunghoon Hong}}}
 \end{cvlist}
 
 \clearpage
