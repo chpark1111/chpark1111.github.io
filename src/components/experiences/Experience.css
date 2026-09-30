@@ -1,6 +1,6 @@
 .experience-item {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   border-bottom: 1px solid #ddd;
   padding-bottom: 20px;
   margin-bottom: 20px;
@@ -22,50 +22,75 @@
   object-fit: contain; 
 }
 
+.experience-logo-empty {
+  aspect-ratio: auto;
+}
+
 @media (max-width: 600px){
   .experience-item {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
   }
   .experience-content{
     width:100%;
     text-align:left;
     align-items:flex-start;
-    margin-top:12px;
+    margin-top:0;
   }
 
   .experience-logo-wrap {
-    width: 100%;
-    max-width: 200px;
-    margin:-10px 0 20px;
+    flex: 0 0 auto;
+    width: 120px;
+    margin: 0 0 12px;
+  }
+
+  .experience-logo-empty {
+    display: none;
+  }
+
+  .experience-heading {
+    flex-direction: column;
+    gap: 3px;
   }
 }
 
 /* Content on the right side */
 .experience-content {
   flex: 1;
+  min-width: 0;
 }
 
-.experience-title {
+.experience-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  column-gap: 16px;
+  row-gap: 3px;
+  margin-bottom: 3px;
+}
+
+.experience-role {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 600;
   line-height: 1.3;
-  margin-bottom: 5px;
   color: #333;
 }
 
-/* Role & Date in small text */
-.experience-meta {
-  margin-top: 0px;
-  color: #777;
+.experience-title {
+  margin: 8px 0 0;
+  color: #444;
   font-size: 1rem;
+  font-style: italic;
+  line-height: 1.5;
 }
 
 .experience-organization {
   margin: 0;
   font-size: 0.95rem;
   color: #555;
+  font-weight: 600;
 }
 
 .experience-organization a {
@@ -110,26 +135,41 @@
 
 
 
-/* Optional: style role, date slightly differently */
-.experience-role {
-  font-weight: 500;
-}
-
 .experience-date {
-  font-style: italic;
+  color: #666;
+  font-size: 0.9rem;
+  white-space: nowrap;
 }
 
 /* Description is optional */
 .experience-description {
-  margin-top: 8px;
+  margin: 6px 0 0;
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.experience-supervisor {
+  margin: 6px 0 0;
   font-size: 0.9rem;
   color: #555;
-  line-height: 1.4;
+  line-height: 1.5;
+}
+
+.experience-supervisor a {
+  color: var(--trade-dress);
+  text-decoration: none;
+}
+
+.experience-supervisor a:hover,
+.experience-supervisor a:focus-visible {
+  text-decoration: underline;
 }
 
 
 .experiences-section {
   margin-top: 40px;
+  scroll-margin-top: 120px;
 }
 
 .experiences-section h2 {

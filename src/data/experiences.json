@@ -1,63 +1,78 @@
 [
   {
+    "role": "Co-Founder and CTO",
+    "organization": "IP Intelligence",
+    "date": "Present"
+  },
+  {
     "title": "Researching Graph-RAG Tax AI Systems & Agentic AI",
-    "organization": "Intellicon",
-    "orgLink": "https://intellicon.co.kr/eng/", 
-    "role": "AI Researcher",
-    "date": "Nov. 2025 - Mar. 2026",
+    "organization": "Intellicon Inc.",
+    "orgLink": "https://intellicon.co.kr/eng/",
+    "role": "Legal AI Researcher",
+    "date": "Nov. 2025 – Mar. 2026",
     "logo": "/assets/images/logos/intellicon.png",
-    "description": "Designed and built entity ontologies and knowledge graphs to retrieve statutes, case law, and administrative interpretations. Developed an agentic AI system to answer tax-related questions."
+    "description": "Researched and developed a Graph-RAG system for tax accountants. Designed and built entity ontologies and knowledge graphs to support rich retrieval across complex statutory, case law, and administrative interpretation data. Developed an agentic AI system to answer tax-related questions."
   },
   {
-    "title": "Developing AI Systems for GGGI",
+    "title": "Developing Chatbot AI Systems for GGGI",
     "organization": "Global Green Growth Institute",
-    "orgLink": "https://gggi.org/", 
+    "orgLink": "https://gggi.org/",
     "role": "Intern",
-    "date": "Sep. 2025 - Dec. 2025",
-    "logo": "/assets/images/logos/gggi.png"
+    "date": "Sep. 2025 – Dec. 2025",
+    "logo": "/assets/images/logos/gggi.png",
+    "description": "Developed a Retrieval-Augmented Generation (RAG)-based Large Language Model (LLM) chatbot."
   },
   {
-    "title": "Developing RAG-LLM Systems for environmental accessibility",
+    "title": "Developing Carbon AI System",
     "organization": "Newtonne",
-    "orgLink": "https://newtonneeng.imweb.me/?redirect=no", 
+    "orgLink": "https://newtonneeng.imweb.me/?redirect=no",
     "role": "AI Scientist",
-    "date": "Aug. 2024 - Nov. 2025",
-    "logo": "/assets/images/logos/newtonne.png"
+    "date": "Aug. 2024 – Nov. 2025",
+    "logo": "/assets/images/logos/newtonne.png",
+    "description": "Developed Retrieval-Augmented Generation (RAG) Large Language Models (LLMs) for climate, environmental, and urban applications."
   },
   {
     "title": "Summarizing Precedents using Large Language Models",
     "organization": "Patent Court of Korea",
-    "orgLink": "https://patent.scourt.go.kr/patent_new/index_e.work", 
+    "orgLink": "https://patent.scourt.go.kr/patent_new/index_e.work",
     "role": "Researcher",
-    "date": "Oct. 2023 - Feb. 2024",
+    "date": "Oct. 2023 – Feb. 2024",
     "logo": "/assets/images/logos/court.png",
-    "description": "Applied deep learning and large language models to summarize judicial precedents and help judges understand cases more efficiently."
+    "description": "Summarized judicial precedents using deep learning/LLMs to help judges understand cases more easily, as part of a research project with the court."
   },
   {
-    "title": "Tight Bounding Boxes for 3D Shape Decomposition",
+    "title": "Tight Bounding Boxes for Shape Decomposition",
     "organization": "KAIST Visual AI Group",
-    "orgLink": "https://visualai.kaist.ac.kr/", 
+    "orgLink": "https://visualai.kaist.ac.kr/",
     "role": "Research Intern",
-    "date": "Jan. 2022 - Mar. 2023",
+    "date": "Jan. 2022 – Mar. 2023",
     "logo": "/assets/images/logos/kaist.png",
-    "description": "Conducted research on decomposing 3D meshes into tight bounding boxes using reward-driven search."
+    "description": "Split 3D meshes into small partitions and merged the partitions using a criterion that induces tight bounding boxes. Refined the boxes using MCTS to tighten them by fixing errors.",
+    "supervisor": {
+      "name": "Prof. Minhyuk Sung",
+      "url": "https://mhsung.github.io/"
+    }
   },
   {
     "title": "High-Frequency Trading Strategy using Order Book",
-    "organization": "Schperics",
-    "orgLink": "https://www.schperics.com/", 
+    "organization": "Schperics Inc.",
+    "orgLink": "https://www.schperics.com/",
     "role": "Quant Research Intern",
-    "date": "Jun. 2022 - Oct. 2022",
+    "date": "Jun. 2022 – Oct. 2022",
     "logo": "/assets/images/logos/schperics.png",
-    "description": "Researched high-frequency trading strategies using deep learning on cryptocurrency order book data."
+    "description": "Researched high-frequency trading strategies using deep learning with cryptocurrency order book data."
   },
   {
-    "title": "Long Term Video Prediction using VAE",
+    "title": "Long Term Video Prediction",
     "organization": "KAIST Vision and Learning Lab",
-    "orgLink": "https://vllab.kaist.ac.kr/", 
+    "orgLink": "https://vllab.kaist.ac.kr/members.php",
     "role": "Research Intern",
-    "date": "Jun. 2021 - Dec. 2021",
+    "date": "Jun. 2021 – Dec. 2021",
     "logo": "/assets/images/logos/kaist.png",
-    "description": "Explored methods for addressing frame collapse in long-term video generation using VAEs and GANs."
+    "description": "Investigated the frame collapse problem in long-term video generation. Based on SRVP, explored approaches including VQVAE, Temporal Abstraction, and Adversarial Training to mitigate error accumulation in the latent vector, a common problem in auto-regressive models.",
+    "supervisor": {
+      "name": "Prof. Seunghoon Hong",
+      "url": "https://maga33.github.io/"
+    }
   }
 ]

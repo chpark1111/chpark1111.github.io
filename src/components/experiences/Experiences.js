@@ -17,6 +17,7 @@ function Experiences() {
             date={exp.date}
             logo={exp.logo}
             description={exp.description}
+            supervisor={exp.supervisor}
           />
         ))}
       </div>
