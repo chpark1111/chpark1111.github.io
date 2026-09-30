@@ -22,7 +22,7 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\emergencystretch}{2em}
-\AtBeginDocument{\fontsize{10.5pt}{13.2pt}\selectfont\color{ink}\RaggedRight}
+\AtBeginDocument{\fontsize{10.5pt}{13.2pt}\selectfont\color{ink}\raggedright\hyphenpenalty=10000\relax}
 \clubpenalty=10000
 \widowpenalty=10000
 \raggedbottom
@@ -71,28 +71,31 @@
 \begin{document}
 \cvheader
 
-\section{Introduction}
+\section{Research Profile}
 I am Chanhyeok Park, a graduate student in the integrated M.S.--Ph.D. program at KAIST AI Future Studies, where I work under the guidance of \link{https://fs.kaist.ac.kr/ko/?c=184&s=&cidx1=41&gp=1&gbn=viewok&ix=1545}{Prof. Woojung Jon}. I earned my bachelor's degree from the KAIST School of Computing. Alongside my academic work, I am Co-Founder and CTO of \textbf{IP Intelligence}.
 
 \smallskip
 My research centers on \textbf{AI safety}, which I approach through two complementary directions.
-\begin{researchdirections}
-  \item In \textbf{legal research}, I study AI governance and regulation, including frameworks such as the EU AI Act. I examine how risk-based regulation, legal accountability, and institutional oversight should be designed to prevent harm and protect fundamental rights throughout AI development and deployment.
-  \item In \textbf{technical research}, I explore how large language models (LLMs) and agentic AI can be trained, evaluated, and deployed safely. My interests include safety alignment, adversarial testing, and safeguards against harmful outputs and unintended agent actions.
-\end{researchdirections}
+\par\vspace{5pt}
+\noindent\begin{minipage}[t]{0.477\linewidth}
+\raggedright\hyphenpenalty=10000\relax
+In \textbf{legal research}, I study AI governance and regulation, including frameworks such as the EU AI Act. I examine how risk-based regulation, legal accountability, and institutional oversight should be designed to prevent harm and protect fundamental rights throughout AI development and deployment.
+\end{minipage}\hfill
+\begin{minipage}[t]{0.477\linewidth}
+\raggedright\hyphenpenalty=10000\relax
+In \textbf{technical research}, I explore how large language models (LLMs) and agentic AI can be trained, evaluated, and deployed safely. My interests include safety alignment, adversarial testing, and safeguards against harmful outputs and unintended agent actions.
+\end{minipage}\par
 
-\smallskip
-During my undergraduate studies, my work with the \link{https://visualai.kaist.ac.kr/}{KAIST Visual AI Group} under the mentorship of \link{https://mhsung.github.io/}{Prof. Minhyuk Sung} deepened my understanding of AI systems. Collaborating with Prof. Woojung Jon also broadened my perspective on law, society, and interdisciplinary research. This background now informs my approach to AI safety, combining technical understanding with legal inquiry. I envision a future in which AI is safely integrated into everyday life, helping build a more efficient society.
 
 \section{Education}
 \begin{cvlist}
   \entryhead{Sep. 2026 -- Present}{KAIST AI Future Studies}
-  \entrymeta{Advisor: Prof. Woojung Jon\quad\textperiodcentered\quad GPA: 4.18/4.3}
   \entrytopic{Integrated M.S.--Ph.D. Program in AI Future Studies}
+  \entrymeta{Advisor: Prof. Woojung Jon\quad\textperiodcentered\quad GPA: 4.18/4.3}
 
   \entryhead{Mar. 2020 -- Feb. 2025}{KAIST School of Computing}
-  \entrymeta{GPA: 4.02/4.3 (\textit{Summa Cum Laude})}
   \entrytopic{B.S. in Computer Science (CS) and Intellectual Property (IP)}
+  \entrymeta{GPA: 4.02/4.3 (\textit{Summa Cum Laude})}
 \end{cvlist}
 
 \section{Publications}
@@ -110,6 +113,7 @@ During my undergraduate studies, my work with the \link{https://visualai.kaist.a
   International Conference on 3D Vision (3DV), 2024
 \end{enumerate}
 
+\clearpage
 \section{Experience}
 \begin{cvlist}
   \entryhead{Present}{Co-Founder and CTO, IP Intelligence}
@@ -149,6 +153,7 @@ During my undergraduate studies, my work with the \link{https://visualai.kaist.a
   Solving the frame collapse problem when generating long-term videos. Based on \link{https://arxiv.org/abs/2002.09219}{SRVP}, approaches like \link{https://arxiv.org/abs/1711.00937}{VQVAE}, \link{https://arxiv.org/abs/1910.00775}{Temporal Abstraction}, and Adversarial Training were explored to mitigate error accumulation in the latent vector, a common problem in auto-regressive models.
 \end{cvlist}
 
+\clearpage
 \section{Awards, Honors}
 \begin{cvlist}
   \entryhead{Fall 2024}{\link{https://www.surim.or.kr/kr/talent/winner01.php}{Surim Foundation} Talent Scholarship}
@@ -186,6 +191,9 @@ During my undergraduate studies, my work with the \link{https://visualai.kaist.a
   \entryhead{Fall 2020}{Tutor of KAIST Cyber Education for Gifted}
   Taught the basics of C to elementary school students.
 \end{cvlist}
+
+\section{Background}
+During my undergraduate studies, my work with the \link{https://visualai.kaist.ac.kr/}{KAIST Visual AI Group} under the mentorship of \link{https://mhsung.github.io/}{Prof. Minhyuk Sung} deepened my understanding of AI systems. Collaborating with Prof. Woojung Jon also broadened my perspective on law, society, and interdisciplinary research. This background now informs my approach to AI safety, combining technical understanding with legal inquiry. I envision a future in which AI is safely integrated into everyday life, helping build a more efficient society.
 
 \section{Skills}
 2020 \link{http://icpckorea.org/}{ACM-ICPC Seoul Regional} 12th place (C, C++)\\
