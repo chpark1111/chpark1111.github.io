@@ -7,7 +7,7 @@ function ProfileSection() {
       <h2>🐥 Introduction</h2>
       <div className="intro">
         <p>
-          I am Chanhyeok Park, a graduate student in the integrated M.S.–Ph.D. program at KAIST AI Future Studies, where I work under the guidance of{' '}
+          I am Chanhyeok Park, a graduate student in the integrated M.S./Ph.D. program at KAIST AI Future Studies, where I work under the guidance of{' '}
           <a
             href="https://fs.kaist.ac.kr/ko/?c=184&s=&cidx1=41&gp=1&gbn=viewok&ix=1545"
             target="_blank"

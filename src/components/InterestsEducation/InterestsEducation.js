@@ -41,7 +41,7 @@ function InterestsEducation({ className = '' }) {
           <FaGraduationCap className="edu-icon" />
           <div className="edu-content">
             <strong className="edu-degree">
-              Integrated M.S.–Ph.D. Program in AI Future Studies
+              Integrated M.S./Ph.D. Program in AI Future Studies
             </strong>
             <p className="edu-details">
               Korea Advanced Institute of Science &amp; Technology (KAIST), South Korea <br />
