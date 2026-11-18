@@ -27,7 +27,7 @@ function InterestsEducation({ className = '' }) {
           <div className="affiliation-item">
             <FaBuilding className="affiliation-icon" aria-hidden="true" />
             <div>
-              <strong className="affiliation-name">Renal Vant</strong>
+              <strong className="affiliation-name">IP Intelligence</strong>
               <p className="affiliation-role">Co-Founder and CTO</p>
             </div>
           </div>

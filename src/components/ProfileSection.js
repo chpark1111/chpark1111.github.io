@@ -14,7 +14,7 @@ function ProfileSection() {
             rel="noreferrer"
           >
             Prof. Woojung Jon
-          </a>. I earned my bachelor’s degree from the KAIST School of Computing. Alongside my academic work, I am Co-Founder and CTO of <b>Renal Vant</b>.
+          </a>. I earned my bachelor’s degree from the KAIST School of Computing. Alongside my academic work, I am Co-Founder and CTO of <b>IP Intelligence</b>.
         </p>
         <p>
           My research centers on <b>AI safety</b>, which I approach through two complementary directions. In <b>legal research</b>, I study AI governance and regulation, including frameworks such as the EU AI Act. I examine how risk-based regulation, legal accountability, and institutional oversight should be designed to prevent harm and protect fundamental rights throughout AI development and deployment. In <b>technical research</b>, I explore how large language models (LLMs) and agentic AI can be trained, evaluated, and deployed safely. My interests include safety alignment, adversarial testing, and safeguards against harmful outputs and unintended agent actions.
